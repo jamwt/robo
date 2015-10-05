@@ -1,0 +1,13 @@
+[package]
+name = "robo"
+version = "0.1.0"
+authors = ["Jamie Turner <jamwt@dropbox.com>"]
+
+[dependencies]
+nickel = "0.7.*"
+docopt = "0.6.*"
+rustc-serialize = "*"
+time = "*"
+
+[dependencies.pulldown-cmark]
+git = "https://github.com/google/pulldown-cmark.git"

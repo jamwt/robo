@@ -1,0 +1,80 @@
+@font-face { font-family: Droid; src: url('/static/fonts/DroidSansMonoDotted.ttf'); }
+body {
+/*    font-family: 'Lustria', serif; */
+    font-family: 'Baskerville', Georgia, Times, serif;
+
+    font-size: 14pt;
+    line-height: 1.6em;
+    color: #113;
+    background-color: #fafafa;
+}
+
+#cont {
+    margin: 5px auto;
+    width: 768px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #028;
+}
+
+p {
+    margin: 13px 0;
+}
+
+.blog-title {
+    font-size: 24px;
+    margin: 0 auto;
+    color: #028;
+    padding: 34px 0 4px 0;
+    text-align: center;
+}
+
+.post-title {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.post-author {
+    margin-top: 26px;
+    text-align: center;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.post-date {
+    font-size: 18px;
+    color: #222;
+    text-align: center;
+    margin-top: 10px;
+    padding 6px 50px;
+    margin-bottom: 28px;
+}
+
+.credit {
+    text-align: center;
+    font-size: 14px;
+    font-color: #222;
+}
+
+.bottombar {
+    margin-top: 24px;
+}
+
+p {
+    margin: 18px 0;
+}
+
+pre {
+    padding: 8px;
+    margin: 8px;
+    border: #028 1px solid;
+}
+
+code {
+    font-family: Droid, sans-serif;
+    font-size: 13px;
+    line-height: 1.3em;
+}

@@ -1,0 +1,7 @@
+{{> head}}
+    <div id="home-posts">
+    {{#posts}}
+        <p><a href="{{& url}}">{{name}}</a> on {{date}}</p>
+    {{/posts}}
+    </div>
+{{> foot}}
